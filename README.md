@@ -23,7 +23,7 @@ scikit-learn
 from cocost import cocost
 cocost.spatial_affinity(adata1)
 cocost.spatial_affinity(adata2)
-result = cocost(adata_b, adta_t)
+cocost(adata_b, adata_t)
 ```
 
 You can also check the [example notebook](./example.ipynb) for a demonstration.
