@@ -20,10 +20,12 @@ scikit-learn
 ## Example Usage
 
 ```python
-from cocost import cocost
+import CoCoSTpy as cocost
+
+
 cocost.spatial_affinity(adata_b)
 cocost.spatial_affinity(adata_t)
-cocost(adata_b, adata_t)
+cocost.cocost(adata_b, adata_t)
 ```
 
 You can also check the [example notebook](./example.ipynb) for a demonstration.
