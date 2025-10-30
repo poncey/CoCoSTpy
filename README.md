@@ -21,8 +21,8 @@ scikit-learn
 
 ```python
 from cocost import cocost
-cocost.spatial_affinity(adata1)
-cocost.spatial_affinity(adata2)
+cocost.spatial_affinity(adata_b)
+cocost.spatial_affinity(adata_t)
 cocost(adata_b, adata_t)
 ```
 
